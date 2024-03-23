@@ -30,7 +30,7 @@ if (dataCard1.uso === "ambos") {
       <h5 class="modelo">${dataCard1.modelo}</h5>
       <p class="valor">${dataCard1.valor}</p>
       <p class="rural">Uso Urbano y Rural</p>
-      <a href="#" class="btn">${dataCard1.comprar}</a>
+      <a href="#" class="btn" onclick="message()">${dataCard1.comprar}</a>
       </div>
       `;
 } else {
@@ -42,7 +42,7 @@ if (dataCard1.uso === "ambos") {
         <h5 class="modelo">${dataCard1.modelo}</h5>
         <p class="valor">${dataCard1.valor}</p>
         <p class="rural">Uso Urbano</p>
-        <a href="#" class="btn">${dataCard1.comprar}</a>
+        <a href="#" class="btn" onclick="message()">${dataCard1.comprar}</a>
         </div>
         `;
 }
@@ -65,7 +65,7 @@ if (dataCard2.uso === "ambos") {
           <h5 class="modelo">${dataCard2.modelo}</h5>
           <p class="valor">${dataCard2.valor}</p>
           <p class="rural">Uso Urbano y Rural</p>
-          <a href="#" class="btn">${dataCard2.comprar}</a>
+          <a href="#" class="btn" onclick="message()">${dataCard2.comprar}</a>
           </div>
           `;
 } else {
@@ -77,7 +77,7 @@ if (dataCard2.uso === "ambos") {
           <h5 class="modelo">${dataCard2.modelo}</h5>
           <p class="valor">${dataCard2.valor}</p>
           <p class="rural">Uso Urbano</p>
-          <a href="#" class="btn">${dataCard2.comprar}</a>
+          <a href="#" class="btn" onclick="message()">${dataCard2.comprar}</a>
           </div>
           `;
 }
@@ -100,7 +100,7 @@ if (dataCard3.uso === "ambos") {
           <h5 class="modelo">${dataCard3.modelo}</h5>
           <p class="valor">${dataCard3.valor}</p>
           <p class="rural">Uso Urbano y Rural</p>
-          <a href="#" class="btn">${dataCard3.comprar}</a>
+          <a href="#" class="btn" onclick="message()">${dataCard3.comprar}</a>
           </div>
           `;
 } else {
@@ -112,7 +112,23 @@ if (dataCard3.uso === "ambos") {
           <h5 class="modelo">${dataCard3.modelo}</h5>
           <p class="valor">${dataCard3.valor}</p>
           <p class="rural">Uso Urbano</p>
-          <a href="#" class="btn">${dataCard3.comprar}</a>
+          <a href="#" class="btn" onclick="message()">${dataCard3.comprar}</a>
           </div>
           `;
+}
+
+function message() {
+  swal({
+    title: "Aun no Disponible",
+    text: "Desea volver a la pagina principal?, o continuar  buscando otros modelos?",
+    icon: "info",
+    buttons: true,
+    dangerMode: true,
+  }).then((volver) => {
+    if (volver) {
+      location.href = "index.html";
+    } else {
+      swal("Por favor Continue!");
+    }
+  });
 }
