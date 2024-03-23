@@ -29,7 +29,7 @@ if (dataCard1.uso === "ambos") {
       <img class="img">${dataCard1.src}</img>
       <h5 class="modelo">${dataCard1.modelo}</h5>
       <p class="valor">${dataCard1.valor}</p>
-      <p class="rural">Uso Urbano y Rural</p>
+      <p class="rural">Uso Pavimento y Tierra</p>
       <a href="#" class="btn" onclick="message()">${dataCard1.comprar}</a>
       </div>
       `;
@@ -41,7 +41,7 @@ if (dataCard1.uso === "ambos") {
         <img class="img">${dataCard1.src}</img>
         <h5 class="modelo">${dataCard1.modelo}</h5>
         <p class="valor">${dataCard1.valor}</p>
-        <p class="rural">Uso Urbano</p>
+        <p class="rural">Uso Pavimento</p>
         <a href="#" class="btn" onclick="message()">${dataCard1.comprar}</a>
         </div>
         `;
@@ -64,7 +64,7 @@ if (dataCard2.uso === "ambos") {
           <img class="img">${dataCard2.src}</img>
           <h5 class="modelo">${dataCard2.modelo}</h5>
           <p class="valor">${dataCard2.valor}</p>
-          <p class="rural">Uso Urbano y Rural</p>
+          <p class="rural">Uso Pavimento y Tierra</p>
           <a href="#" class="btn" onclick="message()">${dataCard2.comprar}</a>
           </div>
           `;
@@ -76,7 +76,7 @@ if (dataCard2.uso === "ambos") {
           <img class="img">${dataCard2.src}</img>
           <h5 class="modelo">${dataCard2.modelo}</h5>
           <p class="valor">${dataCard2.valor}</p>
-          <p class="rural">Uso Urbano</p>
+          <p class="rural">Uso Pavimento</p>
           <a href="#" class="btn" onclick="message()">${dataCard2.comprar}</a>
           </div>
           `;
@@ -99,7 +99,7 @@ if (dataCard3.uso === "ambos") {
           <img class="img">${dataCard3.src}</img>
           <h5 class="modelo">${dataCard3.modelo}</h5>
           <p class="valor">${dataCard3.valor}</p>
-          <p class="rural">Uso Urbano y Rural</p>
+          <p class="rural">Uso Pavimento y Tierra</p>
           <a href="#" class="btn" onclick="message()">${dataCard3.comprar}</a>
           </div>
           `;
@@ -111,7 +111,7 @@ if (dataCard3.uso === "ambos") {
           <img class="img">${dataCard3.src}</img>
           <h5 class="modelo">${dataCard3.modelo}</h5>
           <p class="valor">${dataCard3.valor}</p>
-          <p class="rural">Uso Urbano</p>
+          <p class="rural">Uso Pavimento</p>
           <a href="#" class="btn" onclick="message()">${dataCard3.comprar}</a>
           </div>
           `;
