@@ -80,7 +80,6 @@ nav h2 {
     font-size: 1.2rem;
     font-weight: bold;
     width: 100%;
-    /* margin: 5px; */
 }
 
 nav ul{
@@ -117,7 +116,7 @@ nav .items:hover{
 }
 
 .card img{
-    max-width: 250px;
+    max-width: 350px;
 }
 
 .card .btn{
@@ -138,7 +137,6 @@ nav .items:hover{
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
     gap: 1.5rem;
     justify-items: center;
     margin: 10px;
